@@ -23,6 +23,7 @@ public class PaymentService {
 
         Payment payment = Payment.builder()
                 .orderId(request.orderId())
+
                 .amount(request.amount())
                 .transactionId(
                         "TXN_" + UUID.randomUUID()
