@@ -21,8 +21,10 @@ public class Payment {
     @Column(nullable = false)
     private Long orderId;
 
+
     @Column(nullable = false)
     private Double amount;
+
 
     @Column(nullable = false, unique = true)
     private String transactionId;
