@@ -6,10 +6,8 @@ import jakarta.validation.constraints.Positive;
 public record CreatePaymentRequest(
 
         @NotNull
-        Long orderId,
+        Long orderId
 
-        @NotNull
-        @Positive
-        Double amount
+
 
 ) {}
